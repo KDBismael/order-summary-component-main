@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: hsl(225, 100%, 94%);
+    height: 100%;
+    width: 100%;
+    font-family: "redHatDisplay",sans-serif;
+}
+.content{
+    display: grid;
+    justify-items: center;
+}
+
+@font-face {
+    font-family:redHatDisplay;
+    src:url('../Red_Hat_Display/RedHatDisplay-Italic-VariableFont_wght.ttf');
+}

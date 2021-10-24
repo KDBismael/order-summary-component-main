@@ -1,0 +1,272 @@
+.content{
+    border-radius: 1rem;
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: white;
+    margin-left: 30%;
+    height: 64%;
+}
+@media screen and (min-width:866px) and (max-width:1017px){
+ .content{
+     height: 66%;
+ }
+}
+
+@media screen and (min-width:1017px){
+    .content{
+        height: 75%;
+    }
+    .yourPlan{
+        background-size: 15%;
+    }
+}
+
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+.logo{
+    border-radius: .9rem .9rem 0 0;
+    height: 6rem;
+    width: 100%;
+}
+.logo{
+    background-color: white;
+    background-image: url('./images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.whiteContent{
+    border-radius: 0 0 .9rem .9rem;
+    background-color: white;
+    display: grid;
+}
+.whiteContent h1{
+    font-size: 90%;
+    text-align: center;
+}
+.whiteContent .text{
+    font-size: 80%;
+    text-align: center;
+    margin: 1rem;
+}
+.yourPlan{
+    justify-self: center;
+    width: 90%;
+}
+.yourPlan{
+    justify-self: center;
+    width: 90%;
+    height:3rem;
+    border-radius: .3rem;
+    position: relative;
+    display: grid;
+    background-color: hsl(225, 100%, 98%);
+    background-image: url('./images/icon-music.svg');
+    background-repeat: no-repeat;
+    background-position-y:60%;
+    background-position-x: 3%;
+    background-size: 20%;
+}
+.yourPlan *{
+    display: inline-block;
+}
+.yourPlan a{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    position: absolute;
+    right: 2%;
+    top: 49%;
+    font-size: 50%;
+}
+.yourPlan .plan{
+    justify-self: center;
+    font-size: 60%;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+}
+.yourPlan .prices{
+    justify-self: center;
+    position: absolute;
+    top: 60%;
+    font-size: 60%;
+    color: hsl(224, 23%, 55%);
+}
+
+.paymentButton{
+    width: 90%;
+    height: 1.7rem;
+    justify-self: center;
+    margin: 1rem;
+    margin-bottom: .5rem !important;
+    border-radius: .3rem;
+    background-color: hsl(245, 75%, 52%);
+    font-size: 80%;
+    text-align: center;
+    padding-top: .3rem;
+    color: white;
+    box-shadow: 0rem .5rem .5rem hsl(225, 100%, 94%);
+}
+.paymentButton:focus{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+.cancelButton:focus{
+    cursor: pointer;
+    color: black;
+}
+.cancelButton{
+    justify-self: center;
+    width: 60%;
+    font-size: 85%;
+    margin-top: 0 !important;
+    margin: 1rem;
+    transform: translate(8%,0%);
+    color:hsl(224, 23%, 55%) ;
+}
+
+@media screen and (min-width:1040px){
+    .logo{
+        height:13rem;
+    }
+    .cancelButton{
+        transform: translate(30%,0%);
+    }
+}
+
+@media screen and (min-width:656px)and (max-width:1040px){
+    .logo{
+        height:10rem;
+
+    }
+    .cancelButton{
+        transform: translate(30%,0%);
+    }
+}
+
+
+@media screen and (min-width:656px)and (max-width:869px){
+    .logo{
+        height:8rem;
+
+    }
+    .cancelButton{
+        transform: translate(20%,0%);
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:460px){
+
+    .content{
+        width: 40%;
+    }
+    .logo{
+        border-radius: .9rem .9rem 0 0;
+        height: 6rem;
+        width: 100%;
+    }
+    .logo{
+        background-color: white;
+        background-image: url('./images/illustration-hero.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .whiteContent{
+        border-radius: 0 0 .9rem .9rem;
+        background-color: white;
+        display: grid;
+    }
+    .whiteContent h1{
+        font-size: 90%;
+        text-align: center;
+    }
+    .whiteContent .text{
+        font-size: 80%;
+        text-align: center;
+        margin: 1rem;
+    }
+    .yourPlan{
+        justify-self: center;
+        width: 90%;
+    }
+    .yourPlan svg{
+    
+    }
+    .paymentButton{
+        width: 90%;
+        height: 1.7rem;
+        justify-self: center;
+        margin: 1rem;
+        margin-bottom: .5rem !important;
+        border-radius: .3rem;
+        background-color: hsl(245, 75%, 52%);
+        font-size: 80%;
+        text-align: center;
+        padding-top: .3rem;
+        color: white;
+        box-shadow: 0rem .5rem .5rem hsl(225, 100%, 94%);
+    }
+    
+    .cancelButton{
+        justify-self: center;
+        width: 60%;
+        font-size: 85%;
+        margin-top: 0 !important;
+        margin: 1rem;
+        transform: translate(8%,0%);
+    }
+    
+}
+
+@media screen and (min-width:610px) {
+    .yourPlan a{
+        position: absolute;
+        right: 5%;
+        font-size: 70%;
+    }
+    .yourPlan .plan{
+        font-size: 70%;
+    }
+    .yourPlan .prices{
+        font-size: 70%;
+    }
+}
+
+@media screen and (min-width:770px) {
+    .yourPlan a{
+        position: absolute;
+        right: 5%;
+        font-size: 90%;
+    }
+    .yourPlan .plan{
+        font-size: 90%;
+    }
+    .yourPlan .prices{
+        font-size: 90%;
+    }
+    .yourPlan{
+        height: 4rem;
+    }
+}
+@media screen and (min-width:1017px){
+    .yourPlan{
+        background-size: 15%;
+    }
+}
+
+.paymentButton:hover{
+    cursor: pointer;
+    background-color: hsl(245, 56%, 58%);
+}
+.cancelButton:hover{
+    cursor: pointer;
+    color: black;
+}
+.yourPlan a:hover{
+    text-decoration: none;
+}
