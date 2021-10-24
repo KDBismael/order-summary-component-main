@@ -23,7 +23,7 @@
 }
 
 body{
-    background-image: url('./images/pattern-background-desktop.svg');
+    background-image: url('../images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ body{
 }
 .logo{
     background-color: white;
-    background-image: url('./images/illustration-hero.svg');
+    background-image: url('../images/illustration-hero.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -65,7 +65,7 @@ body{
     position: relative;
     display: grid;
     background-color: hsl(225, 100%, 98%);
-    background-image: url('./images/icon-music.svg');
+    background-image: url('../images/icon-music.svg');
     background-repeat: no-repeat;
     background-position-y:60%;
     background-position-x: 3%;
@@ -172,7 +172,7 @@ body{
     }
     .logo{
         background-color: white;
-        background-image: url('./images/illustration-hero.svg');
+        background-image: url('../images/illustration-hero.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
