@@ -12,6 +12,7 @@ body{
     width: 100%;
     font-family: "redHatDisplay",sans-serif;
 }
+
 .content{
     display: grid;
     justify-items: center;
